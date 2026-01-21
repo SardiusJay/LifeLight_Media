@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
+import { Navbar } from './components/Navbar';
+import { Hero } from './components/Hero';
+import { Services } from './components/Services';
 import './App.css';
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
       <Navbar />
@@ -12,6 +12,6 @@ function App() {
       <Services />
     </div>
   );
-}
+};
 
 export default App;
