@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../assets/images/logo.png'; // Import your logo image
+import logo from '../assets/images/LifeLight-logo.png'; 
 
 export function Navbar(){
   return (
@@ -8,10 +8,7 @@ export function Navbar(){
       <div className="navbar-container">
         {/* Logo Section */}
         <div className="navbar-logo">
-          <img src={logo} alt="Last Light Digital Logo" className="logo-image" />
-          <span className="logo-text">
-            LIFELIGHT <span className="logo-digital">MEDIA</span>
-          </span>
+          <img src={logo} alt="LifeLight Media Logo" className="logo-image" />
         </div>
 
         {/* Navigation Links */}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import HeroImage from '../assets/Images/Hero-image.png';
 
 export function Hero () {
   return (
@@ -15,11 +16,10 @@ export function Hero () {
           </h1>
 
           <p className="hero-description">
-            At LastLight Digital, we transform dreams and 
+            At LifeLight Media, we transform brands and 
             communities into digital powerhouses with creativity, 
-            love, and precision. This Visionnna's slogan, we 
-            challenge ourselves storytelling and innovations 
-            making every brand as unforgettable as love itself.
+            love, and precision. This Valentine’s season, we celebrate connection, storytelling, 
+            and innovation, making every brand as unforgettable as love itself.
           </p>
 
           <div className="hero-buttons">
@@ -31,10 +31,7 @@ export function Hero () {
         {/* Right Side - Hero Image */}
         <div className="hero-image">
           <div className="image-wrapper">
-            <img 
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=600&fit=crop" 
-              alt="Professional team collaboration" 
-            />
+            <img src={HeroImage} alt="Professional team collaboration" />
           </div>
           <div className="sparkle-icon-bottom">✨</div>
         </div>
