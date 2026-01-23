@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css';
+import './Service.css';
 
 export function Services () {
   const services = [
@@ -42,7 +42,7 @@ export function Services () {
   return (
     <section className="services">
       <div className="services-container">
-        <p className="services-label">SERVICES</p>
+        <p className="services-label">Services</p>
         <h2 className="services-title">High impact services for your business</h2>
 
         <div className="services-grid">

@@ -10,11 +10,21 @@
 }
 
 .services-label {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: #6b7280;
-  letter-spacing: 1.5px;
+  color: #2563eb;
   margin-bottom: 1rem;
+  width: 741;
+  height: 27;
+  angle: 0 deg;
+  opacity: 1;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 170%;
+  letter-spacing: 0%;
+  text-align: center;
+
+
 }
 
 .services-title {
