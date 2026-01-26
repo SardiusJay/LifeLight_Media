@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../assets/images/LifeLight-logo.png'; 
+import logo from '../assets/Images/LifeLight-logo.png'; 
 
 export function Navbar(){
   return (
