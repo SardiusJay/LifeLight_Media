@@ -1,8 +1,8 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../assets/Images/LifeLight-logo.png'; 
+import logo from '../assets/Images/Logo.png'; 
 
-export function Navbar(){
+export function Navbar (){
   return (
     <nav className="navbar">
       <div className="navbar-container">
